@@ -21,22 +21,16 @@
 .arrow.top::before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
   top: 0;
   left: 50%;
   transform: translate(-50%, -100%);
   border: 10px solid #ddd;
   border-color: transparent transparent #ddd transparent;
-  /* background-color: black; */
 }
 
 .arrow.right::before {
   content: "";
-  /* background-color: black; */
   position: absolute;
-  width: 20px;
-  height: 20px;
   top: 50%;
   left: 100%;
   transform: translate(0%, -50%);
@@ -46,10 +40,7 @@
 
 .arrow.bottom::before {
   content: "";
-  /* background-color: black; */
   position: absolute;
-  width: 20px;
-  height: 20px;
   top: 100%;
   left: 50%;
   transform: translate(-50%, 0%);
@@ -59,10 +50,7 @@
 
 .arrow.left::before {
   content: "";
-  /* background-color: black; */
   position: absolute;
-  width: 20px;
-  height: 20px;
   top: 50%;
   left: 0;
   transform: translate(-100%, -50%);
